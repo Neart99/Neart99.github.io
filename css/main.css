@@ -333,7 +333,7 @@ ul li1 {
 	//color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	//text-shadow: none;
-	font-size: 31px;
+	font-size: 5vw;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -344,7 +344,7 @@ ul li1 {
 	color: #d1e1ea;
 	//text-shadow: none;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-	font-size: 14px;
+	font-size: 2vw;
 	font-weight: 400;
 	letter-spacing: 2px;
 }
