@@ -333,6 +333,7 @@ ul li1 {
 	//color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	//text-shadow: none;
+	font-size: 32px;
 	font-size: 5vw;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -344,6 +345,7 @@ ul li1 {
 	color: #d1e1ea;
 	//text-shadow: none;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-size: 13px;
 	font-size: 2vw;
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -395,23 +397,23 @@ ul li1 {
 	color: #000;
 }
 /* ------------------------------------------------------------------------------
-	 Portfolio
+	 menu
 -------------------------------------------------------------------------------*/
-#portfolio {
+#menu {
 	width: 94%;
 	margin: auto;
 }
-#portfolio .portfolio-item {
+#menu .menu-item {
 	right: 0;
 	margin: 0 0 2px;
 	padding: 0 1px;
 }
-#portfolio .portfolio-item .portfolio-link {
+#menu .menu-item .menu-link {
 	display: block;
 	position: relative;
 	margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#menu .menu-item .menu-link .caption {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -421,10 +423,10 @@ ul li1 {
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#menu .menu-item .menu-link .caption:hover {
 	opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#menu .menu-item .menu-link .caption .caption-content {
 	position: absolute;
 	top: 50%;
 	width: 100%;
@@ -434,26 +436,45 @@ ul li1 {
 	font-size: 20px;
 	color: #fff;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#menu .menu-item .menu-link .caption .caption-content i {
 	margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
+#menu .menu-item .menu-link .caption .caption-content h3 {
 	margin: 0;
 	color: #e9eaed;
 	font-size: 17px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#menu .menu-item .menu-link .caption .caption-content h4 {
 	margin: 10px 0;
 	color: #e9eaed;
 	font-size: 12px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
-#portfolio * {
+#menu * {
 	z-index: 2;
 }
+/* ------------------------------------------------------------------------------
+	 Work-box 
+-------------------------------------------------------------------------------*/
+/*.work-box:hover img {
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.work-box:hover .overlay {
+	opacity: 1;
+}
+.work-box:hover .overlay h5, .work-box:hover .overlay p {
+	opacity: 1;
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}*/
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
@@ -541,8 +562,13 @@ ul li1 {
 	margin-top: 7%;
 }
 .detail-image img {
-	width: 100%;
+	max-width: 100%;
+  	height: auto;
 }
+/*.detail-image img.resize {
+    width:540px;  
+    height: auto;
+}*/
 .detail-contentbox {
 	background-color: #f2f2f2;
 	padding: 3%;
@@ -558,4 +584,9 @@ ul li1 {
 	font-size: 13px;
 	font-weight: 400;
 	margin-top: 7%;
+}
+.livemap {
+	margin-left: 3vw;
+	margin-right: 3vw;
+
 }
